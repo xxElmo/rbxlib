@@ -7,17 +7,35 @@ Final message, thank you for choosing to use my library.
 
 # Documentation
 
+<details>
+  <summary>Full List of Functions</summary>
+  
+  1. doesUserExist()
+  2. getUserId()
+  3. getUserName()
+  4. getDisplayName()
+  5. getUserProfile()
+
+</details>
+
 ## Importing
-Importing will come later as I still need to get it set up on PyPi so give me a little bit to do so.
+`import rblxlib as rbx`
 
-## doesUserExist(user) | Function
+This will import the entire library and all it's functions.
 
-Arguments: user[String/Int]
-Example:
-```python
-print(doesUserExist("TheROBLOXMAPMAKE")) -> True
-print(doesUserExist(378776480)) -> True
-```
-Notes: This function will return `True` or `False` depending on if the user exists or not.
+
+### doesUserExist(user) | Function
+<details>
+  <summary>Expand for more...</summary>
+  Arguments: user[String/Int]
+  Example:
+  ```python
+  print(doesUserExist("TheROBLOXMAPMAKE")) -> True
+  print(doesUserExist(378776480)) -> True
+  ```
+  Notes: This function will return `True` or `False` depending on if the user exists or not.
+</details>
+
+
 
 
