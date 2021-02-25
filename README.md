@@ -19,23 +19,41 @@ Final message, thank you for choosing to use my library.
 </details>
 
 ## Importing
-`import rblxlib as rbx`
+`import rbxlib as rbx`
 
 This will import the entire library and all it's functions.
 
 
-### doesUserExist(user) | Function
+### doesUserExist()
 <details>
   <summary>Expand for more...</summary>
+
   Arguments: user[String/Int]
+
   Example:
+
   ```python
-  print(doesUserExist("TheROBLOXMAPMAKE")) -> True
-  print(doesUserExist(378776480)) -> True
+  print(rbx.doesUserExist("TheROBLOXMAPMAKE")) -> True
+  print(rbx.doesUserExist(378776480)) -> True
   ```
+
   Notes: This function will return `True` or `False` depending on if the user exists or not.
 </details>
 
+### getUserId()
+<details>
+  <summary>Expand for more...</summary>
 
+  Arguments: name[String]
+
+  Example:
+
+  ```python
+  print(rbx.getUserId("TheROBLOXMAPMAKE")) -> [True, 378776480]
+  print(rbx.getUserId("OAIWhofnahi")) -> [False, 'User not found']
+  ```
+
+  Notes: You will input a username and it will return an array, the first index is either `True` or `False`, the second index will be the `userId` or the error message.
+</details>
 
 
